@@ -58,7 +58,6 @@
     font-size: 1.25rem;
   }
 
-
   .nav-item {
     display: none;
   }
@@ -80,13 +79,16 @@
   .mobile-menu ul {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding-top: 1rem;
+    text-align: start;
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 4px;
+    gap: 10px;
+    padding: 15px 0;
   }
 
   .mobile-menu .nav-item {
     display: block;
-    padding-top: 1.2rem;
   }
 
   .mobile-menu .login-button button {
