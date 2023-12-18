@@ -1,0 +1,48 @@
+.js .ativo1 {
+  opacity: 0;
+  animation: show 0.3s forwards;
+  animation-delay: 0.7s; /* Ajuste o atraso conforme necessário para cada seção */
+}
+
+.js .ativo1:nth-child(2) {
+  animation-delay: 0.9s; /* Ajuste o atraso conforme necessário para cada seção */
+}
+.js .ativo1:nth-child(3) {
+  animation-delay: 5s; /* Ajuste o atraso conforme necessário para cada seção */
+}
+.js .ativo1:nth-child(4) {
+  animation-delay: 6s; /* Ajuste o atraso conforme necessário para cada seção */
+}
+.js .ativo1:nth-child(5) {
+  animation-delay: 7s; /* Ajuste o atraso conforme necessário para cada seção */
+}
+
+.js .ativo2 {
+  opacity: 0;
+  animation: show 0.3s forwards;
+  animation-delay: 0.3s; /* Ajuste o atraso conforme necessário para cada seção */
+}
+
+.js .ativo2:nth-child(2) {
+  animation-delay: 0.4s; /* Ajuste o atraso conforme necessário para cada seção */
+}
+
+.js .ativo2:nth-child(3) {
+  animation-delay: 0.5s; /* Ajuste o atraso conforme necessário para cada seção */
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.js .icon {
+  transition: transform 0.5s ease-in-out;
+}
