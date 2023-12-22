@@ -1,15 +1,19 @@
-.introducao {
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
+}
+
+.introducao {
   align-items: center;
   justify-items: center;
 }
 
 .introducao h1 {
   font-size: 4rem;
+  color: #141414;
   line-height: 1.125;
   margin-bottom: 30px;
   position: relative;

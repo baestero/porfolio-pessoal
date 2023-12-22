@@ -1,0 +1,105 @@
+.experiencia {
+  grid-template-columns: 1fr 1.25fr;
+  margin-bottom: 1000px;
+}
+
+.experiencia img {
+  display: none;
+}
+
+.experiencia .subtitulo {
+  color: #e0e0e0;
+}
+
+.subtitulo {
+  padding: 40px 20px;
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 5ch;
+}
+
+.sobre-mim {
+  padding: 30px 40px;
+}
+
+.experiencia-subtitulo {
+  font-size: 1.15rem;
+  color: #525252;
+  margin-bottom: 10px;
+}
+
+.experiencia-nome {
+  font-size: 2.5rem;
+  color: #141414;
+  margin-bottom: 40px;
+}
+
+.experiencia-texto {
+  font-size: 1.25rem;
+  line-height: 1.33;
+  color: #525252;
+  margin-bottom: 40px;
+}
+
+.experiencia-texto strong {
+  color: #141414;
+}
+
+.experiencia-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.experiencia-habilidades-titulo {
+  font-size: 1.25rem;
+  line-height: 1.33;
+  color: #525252;
+  margin-bottom: 20px;
+}
+
+.experiencia-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 5px;
+  color: white;
+  background: #141414;
+  padding: 12.5px 15px;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.experiencia-habilidades li:hover {
+  background: #e0e0e0;
+  color: #141414;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    text-align: start;
+  }
+  .subtitulo {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    max-width: initial;
+    padding: 20px 40px 0;
+  }
+
+  .experiencia-texto {
+    font-size: 1.05rem;
+  }
+
+  .experiencia-subtitulo {
+    font-size: 1rem;
+  }
+
+  .experiencia-nome {
+    font-size: 2rem;
+  }
+}
