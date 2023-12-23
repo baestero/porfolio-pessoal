@@ -1,14 +1,20 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 40px 20px;
 }
 
 .introducao {
   align-items: center;
-  justify-items: center;
+  justify-items: start;
+  padding-left: 60px;
+}
+
+.memoji {
+  display: grid;
+  justify-self: center;
 }
 
 .introducao h1 {
@@ -40,6 +46,7 @@
   .introducao {
     grid-template-columns: 1fr;
     padding: 0 40px;
+    justify-items: center;
   }
 
   .introducao-item:nth-child(1) {
@@ -61,6 +68,7 @@
   .introducao p {
     text-align: center;
     font-size: 1.25rem;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 500px) {

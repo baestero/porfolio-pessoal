@@ -8,6 +8,13 @@ html {
   scroll-behavior: smooth;
 }
 
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  z-index: 5;
+}
+
 h1,
 h2,
 h3,

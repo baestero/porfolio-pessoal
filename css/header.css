@@ -2,8 +2,7 @@
 @import "./header.css";
 
 .navbar {
-  max-width: 1200px;
-  padding: 40px 20px;
+  padding: 20px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -14,6 +13,11 @@
   display: flex;
   align-items: center;
   font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar-titulo a {
+  text-decoration: none;
   color: #141414;
 }
 
@@ -41,6 +45,10 @@
   color: #141414;
 }
 
+.nav-link:hover {
+  color: #e0e0e0;
+}
+
 .mobile-menu-icon {
   display: none;
 }
@@ -51,7 +59,7 @@
 
 @media screen and (max-width: 900px) {
   .navbar {
-    padding: 40px;
+    padding: 20px 40px;
     padding-bottom: 25px;
   }
 
@@ -102,7 +110,7 @@
 
 @media screen and (max-width: 420px) {
   .navbar {
-    padding: 20px 40px 0 40px;
+    padding: 20px 40px 10px;
   }
 
   .navbar-titulo {

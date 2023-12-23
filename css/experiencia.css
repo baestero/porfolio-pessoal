@@ -1,5 +1,7 @@
 .experiencia {
   grid-template-columns: 1fr 1.25fr;
+  background-color: #f7f7f7;
+  border-radius: 4px;
   margin-bottom: 1000px;
 }
 
@@ -83,6 +85,7 @@
   .experiencia {
     grid-template-columns: 1fr;
     text-align: start;
+    padding: 20px;
   }
   .subtitulo {
     font-size: 2.5rem;
