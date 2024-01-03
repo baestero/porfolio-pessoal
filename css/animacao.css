@@ -11,8 +11,9 @@
   animation-delay: 1s; /* Ajuste o atraso conforme necessário para cada seção */
 }
 .js .ativo1:nth-child(4) {
-  animation-delay: 1.1; /* Ajuste o atraso conforme necessário para cada seção */
+  animation-delay: 1.2s; /* Ajuste o atraso conforme necessário para cada seção */
 }
+
 
 .js .ativo2 {
   opacity: 0;

@@ -1,7 +1,10 @@
 .experiencia {
-  grid-template-columns: 1fr 1.25fr;
   background-color: #f7f7f7;
   border-radius: 4px;
+}
+
+.experiencia .container {
+  grid-template-columns: 1fr 1.25fr;
 }
 
 .experiencia img {
@@ -80,8 +83,8 @@
   color: #141414;
 }
 
-@media (max-width: 800px) {
-  .experiencia {
+@media (max-width: 750px) {
+  .experiencia .container {
     grid-template-columns: 1fr;
     text-align: start;
     padding: 20px;
@@ -104,4 +107,7 @@
   .experiencia-nome {
     font-size: 2rem;
   }
+}
+
+@media (max-width: 750px) {
 }
