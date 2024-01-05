@@ -99,10 +99,6 @@
   top: -4px;
 }
 
-.cursos h3::before {
-  background: url("../img/cursos.svg") no-repeat center center;
-}
-
 .idiomas h3::before {
   background: url("../img/idiomas.svg") no-repeat center center;
 }
@@ -142,7 +138,7 @@
   }
 
   .formacao .subtitulo {
-    color: #a3a3a3;
+    color: #424242;
     max-width: initial;
   }
 }
