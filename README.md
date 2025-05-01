@@ -1,6 +1,6 @@
 # Portfólio Pessoal de Leonardo Baestero
 
-Este é o meu portfólio pessoal, focado em front end base html, css e js.
+Este é o meu portfólio pessoal, focado em front-end base html, css e js.
 
 ### Acesse o Portfólio
 
