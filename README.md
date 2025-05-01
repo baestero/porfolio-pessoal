@@ -6,6 +6,6 @@ Este é o meu portfólio pessoal, focado em front end base html, css e js.
 
 Para ver o portfólio online, clique no link abaixo:
 
-[**Visite o meu portfólio**](https://baestero.github.io/porfolio-pessoal/)
+[**Visite o meu portfólio**](https://baestero.github.io/porfolio-pessoal/){:target="_blank"}
 
 
