@@ -1,6 +1,6 @@
 # Portfólio Pessoal de Leonardo Baestero
 
-Este é o meu portfólio pessoal, onde compartilho projetos, experiências e meu trabalho como desenvolvedor e especialista em automação de testes.
+Este é o meu portfólio pessoal, focado em front end base html, css e js.
 
 ### Acesse o Portfólio
 
